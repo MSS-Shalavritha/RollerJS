@@ -43,6 +43,7 @@ describe('Roller', () => {
       expect(roller.last()).toEqual(0);
     });
 
+    
     test('This test case checks if the last() method of the Roller class returns the value of the most recent roll of the die', () => {
       const roller = new Roller(4);
       roller.roll(3);

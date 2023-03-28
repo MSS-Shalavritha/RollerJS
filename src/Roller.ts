@@ -18,6 +18,7 @@ export class Roller {
         }
     }
 
+
     // specifies which number should be rolled and returns the recorded roll. 
     // If the value provided is not valid for the number of faces the die has,
     // no record of the roll should be made and 0 should be returned. However,
@@ -53,6 +54,7 @@ export class Roller {
     // value and its value should be the number of times that face has been
     // rolled. Even if a face has not yet been rolled, its key should have a
     // value of 0.
+    
     distribution(): Map<number, number> {
         return new Map<number, number>(this._distribution);
     }
